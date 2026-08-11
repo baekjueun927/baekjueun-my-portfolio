@@ -167,12 +167,12 @@ const links = document.querySelectorAll("a, button");
 links.forEach(link=>{
   link.addEventListener("mouseenter", ()=>{
     cursor2.style.transform = "translate(-50%, -50%) scale(1.8)";
-    cursor2.style.borderColor = "#FF6584";
+    cursor2.style.borderColor = "#FCA5F1";
   });
 
   link.addEventListener("mouseleave", ()=>{
     cursor2.style.transform = "translate(-50%, -50%) scale(1)";
-    cursor2.style.borderColor = "#6C63FF";
+    cursor2.style.borderColor = "#B5FFFF";
   });
 });
 

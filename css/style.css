@@ -147,14 +147,7 @@ body {
 
 /* BANNER */
 .banner {
-  height: 90vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background: linear-gradient(135deg, #B5FFFF, #FCA5F1);
-  color: white;
+  padding: 0%;
 }
 
 .banner h1 {
@@ -612,73 +605,6 @@ circle {
   }
 }
 
-/* INTERVIEW */
-#interview {
-  background: linear-gradient(135deg, #f8f9ff, #fff);
-}
-
-.interview-wrap {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
-}
-
-/* 카드 */
-.interview-card {
-  background: white;
-  padding: 40px;
-  border-radius: 20px;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.05);
-  transition: 0.3s;
-  position: relative;
-  overflow: hidden;
-}
-
-/* 포인트 라인 */
-.interview-card::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 5px;
-  height: 100%;
-  background: linear-gradient(#B5FFFF, #FCA5F1);
-}
-
-/* hover */
-.interview-card:hover {
-  transform: translateY(-10px);
-}
-
-/* 질문 */
-.interview-card h3 {
-  font-size: 20px;
-  margin-bottom: 15px;
-  color: #88C2FF;
-}
-
-/* 답변 */
-.interview-card p {
-  color: #555;
-  line-height: 1.7;
-}
-
-/* 반응형 */
-@media (max-width: 1024px) {
-  .interview-wrap {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 768px) {
-  .interview-wrap {
-    grid-template-columns: 1fr;
-  }
-
-  .interview-card {
-    padding: 30px;
-  }
-}
 
 /* contact============================== */
 #contact {
