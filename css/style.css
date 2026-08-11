@@ -625,12 +625,12 @@ circle {
 }
 
 .contact-card {
-  background-color: #ffcdf8;
+  background-color: #ffd1f7;
   padding: 40px 30px;
   border-radius: 16px;
   transition: 0.3s;
   border: 1px solid transparent;
-  color: #fff;
+  color: #000000;
 }
 
 .contact-card:hover {
@@ -718,7 +718,7 @@ body {
   position: fixed;
   width: 8px;
   height: 8px;
-  background:#B5FFFF;
+  background:#76a6ff;
   border-radius: 50%;
   pointer-events: none;
   z-index: 9999;
@@ -730,7 +730,7 @@ body {
   position: fixed;
   width: 40px;
   height: 40px;
-  border: 2px solid #B5FFFF;
+  border: 2px solid #76a6ff;
   border-radius: 50%;
   pointer-events: none;
   z-index: 9998;
