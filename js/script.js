@@ -34,7 +34,7 @@ new Swiper(".mySwiper1", {
   loop: true,
 
   autoplay: {
-    delay: 2000, // 3초마다 슬라이드 이동
+    delay: 3000, // 3초마다 슬라이드 이동
     disableOnInteraction: false, // 사용자 터치 후에도 자동 재생 유지
   },
 
