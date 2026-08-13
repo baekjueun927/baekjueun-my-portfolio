@@ -214,6 +214,9 @@ const artworkDescs = [
   "화장품 브랜드 마몽드 배너 디자인",
   "클리오 브랜드 SNS 콘텐츠 디자인"
 ];
+document.querySelectorAll('.card')[1].addEventListener('click', function () {
+    window.open('https://www.figma.com/proto/pD9FoakBgbYuiPuJA8zZCr/%EC%B9%B4%EC%B9%B4%EC%98%A4-%EB%B0%B0%EB%84%88?node-id=1-199&viewport=251%2C80%2C0.39&t=fMNMBoB68ED5RdTQ-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A199&page-id=0%3A1', '_blank');
+});
 
 document.querySelectorAll(".artwork-item").forEach((item, index) => {
 
