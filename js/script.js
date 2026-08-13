@@ -210,18 +210,22 @@ const popupImg = document.querySelector("#popupImg");
 const popupTitle = document.querySelector("#popupTitle");
 const popupDesc = document.querySelector("#popupDesc");
 
-document.querySelectorAll(".artwork-item").forEach((item,index)=>{
+const artworkDescs = [
+  "화장품 브랜드 마몽드 배너 디자인",
+  "클리오 브랜드 SNS 콘텐츠 디자인"
+];
 
-  item.addEventListener("click", ()=>{
+document.querySelectorAll(".artwork-item").forEach((item, index) => {
+
+  item.addEventListener("click", () => {
 
     const img = item.querySelector("img").src;
 
     popupImg.src = img;
 
-    popupTitle.innerText = `Artwork 0${index+1}`;
+    popupTitle.innerText = `Artwork 0${index + 1}`;
 
-    popupDesc.innerText =
-    "아트워크 설명이 들어가는 영역입니다.";
+    popupDesc.innerText = artworkDescs[index];
 
     artPopup.classList.add("active");
 
